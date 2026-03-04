@@ -5,7 +5,6 @@
 
 
 
-
 # %%
 ######### Exercitiul ################
 # Creați un vector cu 10 elemente întregi, toate fiind egale cu 1.
