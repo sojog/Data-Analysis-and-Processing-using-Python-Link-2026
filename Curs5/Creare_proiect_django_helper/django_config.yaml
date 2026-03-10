@@ -1,0 +1,15 @@
+# Schimba PROJECT_NAME cu numele proiectului
+MyDjProject:  
+        # Schimba APP_NAME1 cu numele aplicatiei
+        MyDjApp:
+
+            - view_name: food_view
+              url_path_name: food
+              template_name: food
+
+        CalendarApp:
+            - view_name: leap_years_view
+              url_path_name: leap
+              template_name: lear_years
+
+
