@@ -1,5 +1,5 @@
 """
-URL configuration for matematica project.
+URL configuration for algoritmica project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.2/topics/http/urls/
@@ -17,10 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-## URLS din matematica (PROIECT)
-
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('factorial/', include('factorial.urls')),
-    path('lotto/', include('lotto.urls')),
+    path('mate/', include('factorial.urls'))
 ]
