@@ -6,7 +6,15 @@ editortext:
               url_path_name: text
               template_name: text
 
+            - view_name: cuvant
+              url_path_name: cuvant
+              template_name: cuvant
+
         consoane:
+            - view_name: inserare
+              url_path_name: inserare
+              template_name: inserare
+            
             - view_name: consoane
               url_path_name: consoane
               template_name: consoane

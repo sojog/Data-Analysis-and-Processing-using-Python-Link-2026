@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cuvant</title>
+</head>
+<body>
+
+    {% if word %}
+        <h1>Ultimul cuvant a fost: {{word}}</h1>
+    {% else %}
+        <h1> Introdu un cuvant pentru a-l scrie cu litera mare</h1>
+    {% endif %}
+
+
+    <form action="" method="get">
+        <input type="text" name="word" id="">
+        <input type="submit" value="Send">
+    </form>
+
+
+</body>
+</html>

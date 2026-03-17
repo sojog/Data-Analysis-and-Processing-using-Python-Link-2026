@@ -20,3 +20,10 @@ def consoane_view(request):
 		"consoane" : nr_consoane
 	}
 	return render(request, 'consoane.html', context)
+
+def inserare_view(request):
+	if request.GET.get("text"):
+		return consoane_view(request)
+	
+	context = {}
+	return render(request, 'inserare.html', context)
