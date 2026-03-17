@@ -1,22 +1,13 @@
 # Schimba PROJECT_NAME cu numele proiectului
-editortext:  
+cititor:  
         # Schimba APP_NAME1 cu numele aplicatiei
-        capitalizare:
-            - view_name: text
-              url_path_name: text
-              template_name: text
+        club:
+            - view_name: validare_cnp_view
+              url_path_name: cnp
+              template_name: cnp
 
-            - view_name: cuvant
-              url_path_name: cuvant
-              template_name: cuvant
-
-        consoane:
-            - view_name: inserare
-              url_path_name: inserare
-              template_name: inserare
-            
-            - view_name: consoane
-              url_path_name: consoane
-              template_name: consoane
+            - view_name: validare_cnp_view_post
+              url_path_name: cnppost
+              template_name: cnppost
 
 
