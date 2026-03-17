@@ -1,0 +1,14 @@
+# Schimba PROJECT_NAME cu numele proiectului
+editortext:  
+        # Schimba APP_NAME1 cu numele aplicatiei
+        capitalizare:
+            - view_name: text
+              url_path_name: text
+              template_name: text
+
+        consoane:
+            - view_name: consoane
+              url_path_name: consoane
+              template_name: consoane
+
+
